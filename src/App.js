@@ -12,10 +12,9 @@ import Navbar from './component/Navbar'
 function App() {
   return (
     <div>
-      <Navbar/>
+      
       <Routes>
-      <Route path='./home' element={<Home/>}/>
-
+         <Route path='/' element={<Home/>}/>
         <Route path='./otherpages' element={<Otherpages/>}/>
         <Route path='./fivecolumns' element={<Fivecolumns/>}/>
         <Route path='./templates' element={<Templates/>}/>

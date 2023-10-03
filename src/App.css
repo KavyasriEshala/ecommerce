@@ -1,0 +1,49 @@
+.d-flex{
+    justify-content: space-between;
+}
+.img2{
+    margin-top: 100px;
+    display: flex;
+    height: 150px;
+    width: 400px;
+
+}
+.img{
+    justify-content: center;
+    margin-left: 300px;
+    height: 80vh;
+    width: 380px;
+
+}
+.btnn{
+    background-color: blue;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+}
+.points{
+justify-content: space-between;
+display: flex;
+min-width: 300px;
+margin-top: 50px;
+}
+.list{
+    margin-left: 200px;
+    width: 100%;
+}
+.para{
+    -ms-grid-row-align: start;
+}
+.img3{
+    height: 100vh;
+    width: 100%;
+}
+.blocks{
+    display: block;
+    margin-top: 500px;
+    justify-content: space-between;
+}
+.coll{
+    min-height: 15vh;
+    margin-right: 20px;
+}
