@@ -17,49 +17,118 @@ import {FcRating} from 'react-icons/fc'
 const list = [
   {
     img:'https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-    title:'nature',
+    title:'Unicorn Hotel',
     paragraph:'nature is a .......',
-    price:3000
+    price:3000,
+    rating:3.0
   },
   {
     img:'https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-    title:'nature',
+    title:'White Horse Hotel',
     paragraph:'nature is a .......',
-    price:3000
+    price:3000,
+    rating:4.8
   },
   {
     img:'https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-    title:'nature',
+    title:'Ship and Castle Hotel',
     paragraph:'nature is a .......',
-    price:3000
+    price:3000,
+    rating:4.5
   },
   {
     img:'https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-    title:'nature',
+    title:'The wind mill Hotel',
     paragraph:'nature is a .......',
-    price:3000
+    price:3000,
+    rating:3.2
   },
   {
     img:'https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-    title:'nature',
+    title:'Best Western Cader',
     paragraph:'nature is a .......',
-    price:3000
+    price:3000,
+    rating:4.8
   },
   {
     img:'https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-    title:'nature',
+    title:'Bell By King Inns',
     paragraph:'nature is a .......',
-    price:3000
+    price:3000,
+    rating:3.2
   },
   {
     img:'https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-    title:'nature',
+    title:'Half Moon Sherborn',
     paragraph:'nature is a .......',
-    price:3000
+    price:3000,
+    rating:5.0
   },
 ]
 
+const data = [
+  {
+    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevZUdSn7F4eYaPIAChEMz6O4BRBAJ1sM0gA&usqp=CAU',
+    title:'Truelock Alric',
+    place:'New York',
+    rating:4.2
+  },
+  {
+    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevZUdSn7F4eYaPIAChEMz6O4BRBAJ1sM0gA&usqp=CAU',
+    title:'Truelock Alric',
+    place:'New York',
+    rating:4.2
+  },
+  {
+    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevZUdSn7F4eYaPIAChEMz6O4BRBAJ1sM0gA&usqp=CAU',
+    title:'Truelock Alric',
+    place:'New York',
+    rating:4.2
+  },
+  {
+    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevZUdSn7F4eYaPIAChEMz6O4BRBAJ1sM0gA&usqp=CAU',
+    title:'Truelock Alric',
+    place:'New York',
+    rating:4.2
+  },
+  {
+    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevZUdSn7F4eYaPIAChEMz6O4BRBAJ1sM0gA&usqp=CAU',
+    title:'Truelock Alric',
+    place:'New York',
+    rating:4.2
+  },
+  {
+    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevZUdSn7F4eYaPIAChEMz6O4BRBAJ1sM0gA&usqp=CAU',
+    title:'Truelock Alric',
+    place:'New York',
+    rating:4.2
+  },
+  {
+    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevZUdSn7F4eYaPIAChEMz6O4BRBAJ1sM0gA&usqp=CAU',
+    title:'Truelock Alric',
+    place:'New York',
+    rating:4.2
+  },
+  {
+    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevZUdSn7F4eYaPIAChEMz6O4BRBAJ1sM0gA&usqp=CAU',
+    title:'Truelock Alric',
+    place:'New York',
+    rating:4.2
+  },
+  {
+    img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevZUdSn7F4eYaPIAChEMz6O4BRBAJ1sM0gA&usqp=CAU',
+    title:'Truelock Alric',
+    place:'New York',
+    rating:4.2
+  },
+  {
+    img:'	https://chisfis-template.vercel.app/static/media/Image-1.90baa8cc883db8970fda.png',
+    title:'Truelock Alric',
+    place:'New York',
+    rating:4.2
+  },
 
+]
 function Home() {
   return (
     <div>
@@ -142,6 +211,9 @@ function Home() {
             <FcRating/>
             <p>{obj.price}</p>
           </div>
+          <div>
+            <span>{obj.rating}</span>
+          </div>
         </li>
       )
     })}
@@ -154,21 +226,21 @@ function Home() {
         <div className=' col-xl-4 sum'>
           <div className='summer'>
             <img src='https://chisfis-template.vercel.app/static/media/HIW1.bbef046fd6951afd08a7.png' alt='img' className='game'/>
-            <div className='col-xl-12'>
+            <div className='col-xl-12 ml-150'>
               <h3>Book & relax</h3>
               <span>Let each trip be an inspirational journey, each room a peaceful space</span>
             </div>
           </div>
-          <div className='summer'>
+          <div>
             <img src='https://chisfis-template.vercel.app/static/media/HIW2.f68577684c76e764a351.png' alt='img' className='game'/>
-            <div className='col-xl-12'>
+            <div className='col-xl-12 ml-150'>
               <h3>Smart checklist</h3>
               <span>Let each trip be an inspirational journey, each room a peaceful space</span>
             </div>
           </div>
           <div className='summer'>
             <img src='https://chisfis-template.vercel.app/static/media/HIW3.b650d652a9db697619b9.png' alt='img' className='game'/>
-            <div>
+            <div className='col-xl-12 ml-150'>
             <h3>Save more</h3>
             <span>Let each trip be an inspirational journey, each room a peaceful space
               Suggestions for discovery</span>
@@ -178,6 +250,26 @@ function Home() {
         </div>
 
       </div>
+      <ul class='p-0 d-flex row'>
+        {data.map((each) =>{
+        return (
+          <li className='col-sm-3'>
+           <img className='w-2' src={each.img} alt='img'/>
+           <div className='text-center'>
+           <h6>{each.title}</h6>
+           <div>
+           <span>{each.place}</span>
+
+           </div>
+           <div>
+            <span>{each.rating}</span>  
+           </div>
+
+           </div>
+          </li>
+        )
+})}
+      </ul>
     </div>
   )
 }

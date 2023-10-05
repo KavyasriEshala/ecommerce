@@ -118,18 +118,37 @@ margin-left: 40%;
     margin-top: 30px;
    
 }
-.summer{
+/* .summer{
     width: 100px;
-    margin-left: 150px;
-}
+    margin-left: 150px; */
+/* } */
 .game{
     /* align-items: center; */
     /* height: 200px; */
     max-width: 200px;
-    /* margin-right:auto ; */
-    margin-left: 80px;
+    margin-bottom:100px ;
+    margin-left: 150px;
 }
 .sum{
     display: flex;
     /* justify-content: space-between; */
+}
+/* .li6{
+    margin-left: 150px;
+} */
+.icon{
+    height: 35px;
+    width: 35px;
+    color: blue;
+
+}
+.icon1{
+    height: 35px;
+    width: 35px;
+}
+.nav{
+    background-color: aliceblue;
+    height: 100px;
+    width: 100%;
+    align-items: center;
 }
